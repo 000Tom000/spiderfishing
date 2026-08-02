@@ -1,0 +1,98 @@
+{
+    "time": 1785691933.720922,
+    "request": {
+        "method": "POST",
+        "url": "https://security.zijieapi.com/api/metrics/emit",
+        "headers": {
+            "content-length": "723",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0",
+            "accept": "*/*",
+            "origin": "https://www.douyin.com",
+            "sec-fetch-site": "cross-site",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-dest": "empty",
+            "referer": "https://www.douyin.com/",
+            "accept-encoding": "gzip, deflate, br, zstd",
+            "accept-language": "zh-CN,zh;q=0.9",
+            "priority": "u=1, i"
+        },
+        "params": null,
+        "body": {
+            "values": [
+                {
+                    "name": "decision.latency",
+                    "tags": {
+                        "decisionName": "XHR_REQUEST_SEND",
+                        "projectId": "34",
+                        "env": "online",
+                        "sdkVersion": "1.0.40",
+                        "name": "-",
+                        "strategyName": "-",
+                        "strategyVersion": "-",
+                        "functionName": "-",
+                        "actionType": "-"
+                    },
+                    "value": 1,
+                    "type": "time"
+                },
+                {
+                    "name": "decision.latency",
+                    "tags": {
+                        "decisionName": "XHR_REQUEST_SEND",
+                        "projectId": "34",
+                        "env": "online",
+                        "sdkVersion": "1.0.40",
+                        "name": "-",
+                        "strategyName": "-",
+                        "strategyVersion": "-",
+                        "functionName": "-",
+                        "actionType": "-"
+                    },
+                    "value": 4,
+                    "type": "time"
+                },
+                {
+                    "name": "decision.latency",
+                    "tags": {
+                        "decisionName": "XHR_REQUEST_SEND",
+                        "projectId": "34",
+                        "env": "online",
+                        "sdkVersion": "1.0.40",
+                        "name": "-",
+                        "strategyName": "-",
+                        "strategyVersion": "-",
+                        "functionName": "-",
+                        "actionType": "-"
+                    },
+                    "value": 3,
+                    "type": "time"
+                }
+            ]
+        }
+    },
+    "response": {
+        "status_code": 204,
+        "headers": {
+            "server": "volc-dcdn",
+            "date": "Sun, 02 Aug 2026 17:32:12 GMT",
+            "x-tt-logid": "2026080301321209729D8775F5AFF30431",
+            "server-timing": "inner; dur=13, cdn-cache;desc=MISS, origin;dur=43, edge;dur=0, tt_agw; dur=0",
+            "access-control-allow-credentials": "false",
+            "access-control-expose-headers": "*",
+            "access-control-allow-origin": "*",
+            "x-tt-trace-host": "0115084422825795fc46b20b9681dce67541d77df7286529da8879555e4d6d1396a7fed8a7265051669024a7cc34ee2fbbd607d3f57163f0a100de9153e5cd68e3fae702b1c7f1421e23b9319c3f9c963b16c6aea962e5bdde266ea0d55023a5c8",
+            "x-tt-trace-tag": "id=5",
+            "x-tt-trace-id": "00-26080301321209729D8775F5AFF30431-7769195D664F4A41-00",
+            "x-tt-timestamp": "1785691932.726",
+            "via": "p8-168-023.jslianyungang-cm145-bm.Creative",
+            "x-request-ip": "112.0.141.79",
+            "x-dsa-trace-id": "17856919323b5581cb37492fbdd06ec1a56bd42139",
+            "x-dsa-origin-status": "204"
+        },
+        "body": null
+    }
+}

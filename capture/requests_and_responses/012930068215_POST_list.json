@@ -1,0 +1,109 @@
+{
+    "time": 1785691770.0682158,
+    "request": {
+        "method": "POST",
+        "url": "https://mcs.zijieapi.com/list?aid=6383&sdk_version=5.1.24_dy",
+        "headers": {
+            "content-length": "3966",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "content-type": "application/json; charset=UTF-8",
+            "sec-ch-ua-mobile": "?0",
+            "accept": "*/*",
+            "origin": "https://www.douyin.com",
+            "sec-fetch-site": "cross-site",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-dest": "empty",
+            "referer": "https://www.douyin.com/",
+            "accept-encoding": "gzip, deflate, br, zstd",
+            "accept-language": "zh-CN,zh;q=0.9",
+            "priority": "u=1, i"
+        },
+        "params": {
+            "aid": "6383",
+            "sdk_version": "5.1.24_dy"
+        },
+        "body": [
+            {
+                "events": [
+                    {
+                        "event": "imsdk_receive_msg",
+                        "params": "{\"enter_from\":\"discover\",\"receive_cost_time\":708,\"con_type\":\"2\",\"conversation_id\":\"7428824712651735590\",\"msg_uuid\":\"7669487710340041274\",\"receive_end_time\":\"1785691769980\",\"receive_start_time\":\"1785691768285\",\"time_delta\":\"-987.0952380952381\",\"msg_type\":\"50002\",\"error_code\":\"0\",\"ntp_ready\":\"1\",\"is_ws\":\"1\",\"hybrid_type\":\"aweme\",\"sdk_version\":\"0.1.8\",\"sdk_type\":\"im-web-sdk\",\"build_number\":\"0d50935:feat/pc-im-group\",\"app_id\":\"6383\",\"user_id\":\"100371137904\",\"version_code\":\"360000\",\"launch_from\":\"aweme_web\",\"is_popup_page\":1,\"event_index\":1785689897873}",
+                        "local_time_ms": 1785691769982,
+                        "is_bav": 0,
+                        "ab_sdk_version": "92492180,17584422,92491813,92491812,17607080,91865333,92111656,15558113,17514916,12670731,15334895,91315660,14182519,12922345,11725234,91244278,13030528,11776610,17675219,14374248,91932580,13897822,17081649,9641673,13886460,92397793,92478792,91813416,17688458,9902979,12489666,12089730,91235722,91235723,90332712,90332711,12066344,12362486,12158982,17585489,17655711,15021408,91293768,91293780,91915876,92353343,17580553,17550489,92353344,92353345,91803941,92294847,91886572,15098376,92469486,92205503,92275013,91946379,17119469,91945560,92206579,92109514,92135317,15830051,92310380,17417191,17568368,17504487,92492131,17613121,17430022,14631707,15985333,90994164,7979186,11079922,12867491,10357214,6378994,13294765,90126863,90094332,15005730,8919418,90359851,15263563,90332728,90952597,92440351,92494190,91346084,17143974,15279108,16585449,92319357,90107982,10595748,90108835,90097344,90097485,90111801,7855203,90116415,90110681,90109228,92409072,90122113,17288666,17495771,17110067,16358563,91852587,91852588,17554829,91929925,17575106,17633233,92378007,91906135,17133231,92316367,91896921,17146786,92490504,92490505,17559865,17560562,92392733,92399728,92373145,92378020,17485276,92399384,92469856,92461501,17431157,17458154,17564195",
+                        "session_id": "00ef8c82-9458-4d93-9b0a-30ce8ee6f304"
+                    }
+                ],
+                "user": {
+                    "user_unique_id": "7669473635363292672",
+                    "user_type": 12,
+                    "user_id": "100371137904",
+                    "user_is_auth": true,
+                    "user_is_login": true,
+                    "device_id": "7669473635363292672",
+                    "web_id": "7669478963210700307"
+                },
+                "header": {
+                    "app_id": 6383,
+                    "app_channel": "",
+                    "os_name": "windows",
+                    "os_version": "10",
+                    "device_model": "",
+                    "language": "zh-CN",
+                    "platform": "web",
+                    "sdk_version": "5.1.24_dy",
+                    "sdk_lib": "js",
+                    "timezone": 8,
+                    "tz_offset": -28800,
+                    "resolution": "1536x864",
+                    "browser": "Chrome",
+                    "browser_version": "150.0.0.0",
+                    "referrer": "https://www.douyin.com/",
+                    "referrer_host": "www.douyin.com",
+                    "width": 1536,
+                    "height": 864,
+                    "screen_width": 1536,
+                    "screen_height": 864,
+                    "tracer_data": "{\"$utm_from_url\":1}",
+                    "custom": "{\"pathname\":\"/jingxuan\",\"is_mainland\":1,\"is_client\":false,\"client_version\":\"\",\"first_install_time\":1785688497,\"douyin_pc_seo_page_id\":\"424694631141924855\",\"in_piture_enable\":true,\"is_support_rtm_web_ts\":1,\"h265_hard_parse_supported\":true,\"url\":\"https://www.douyin.com/jingxuan\",\"document_pip_supported\":true,\"arch\":\"\",\"tce_cluster\":\"default\",\"is_mobile\":0,\"is_ipad\":0,\"is_apad\":0,\"is_ad_block\":0,\"x_tt_env\":\"prod\",\"is_client_offline\":0,\"is_ipv6\":0,\"browser_is_360\":\"0\",\"scm_version\":\"1.0.9.1949\",\"architecture\":\"amd64\",\"device_type\":\"11705a8d\",\"web_cpu_core\":20,\"web_memory_size\":16,\"session_init_time\":1785691264413,\"ms_token\":\"\",\"gl_renderer\":\"Intel(R) Iris(R) Xe Graphics\",\"entity_key\":\"Intel(R) Iris(R) Xe Graphics\",\"entity_type\":3,\"device_platform\":5,\"type\":2,\"gpu_name\":\"Intel(R) Iris(R) Xe Graphics\",\"cpu_core_count\":20,\"gpu_vendor_name\":\"Intel\",\"web_wid\":\"\",\"GUID\":\"\",\"manufacturer\":\"\",\"custom_js_heap_can_use\":\"1\",\"custom_js_heap_limit_size\":\"4395630592\",\"custom_js_heap_total_size\":\"161643717\",\"custom_js_heap_used_size\":\"157981361\",\"custom_js_event_counts\":\"36\",\"is_new_project\":1}"
+                },
+                "local_time": 1785691770,
+                "verbose": 1
+            }
+        ]
+    },
+    "response": {
+        "status_code": 200,
+        "headers": {
+            "server": "volc-dcdn",
+            "content-type": "application/json; charset=utf-8",
+            "content-length": "21",
+            "date": "Sun, 02 Aug 2026 17:29:29 GMT",
+            "upstream-caught": "1785691769076818",
+            "x-tt-logid": "20260803012929D2597AD9480E1FFED314",
+            "access-control-allow-origin": "https://www.douyin.com",
+            "access-control-max-age": "1800",
+            "access-control-allow-credentials": "true",
+            "access-control-allow-methods": "GET, OPTIONS, HEAD, PUT, POST",
+            "cross-origin-resource-policy": "cross-origin",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "server-timing": "inner; dur=6, cdn-cache;desc=MISS, origin;dur=27, edge;dur=0",
+            "x-tt-trace-host": "018f233718cfb40cdef96c9de110ca9a4e89c3134f817ffdafe1e39710d8e8495a1a1b4c81520cba369b4c04475a4fb1db6415091ef3cc85618272fa4c15d3f4d34348aa0f327c43ab3163a139dc93b9ef9cd09c64a1f81b641fa0e9a6e660b744f6d422680a11b9b58312770f0275c465",
+            "x-tt-trace-tag": "id=5",
+            "x-tt-trace-id": "00-260803012929D2597AD9480E1FFED314-093A512F5E2810B3-00",
+            "via": "n172-009-199.yzmp-cm.Creative",
+            "x-request-ip": "112.0.141.79",
+            "x-dsa-trace-id": "17856917698e5d89d054eb1410f2304ec5510df1d7",
+            "x-dsa-origin-status": "200"
+        },
+        "body": {
+            "e": 0,
+            "sc": 1,
+            "tc": 1
+        }
+    }
+}
