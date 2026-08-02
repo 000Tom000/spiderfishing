@@ -1,0 +1,432 @@
+{
+    "time": 1785692471.864849,
+    "request": {
+        "method": "POST",
+        "url": "https://imapi.douyin.com/v1/message/get_user_message",
+        "headers": {
+            "content-length": "728",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "accept": "application/x-protobuf",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "content-type": "application/x-protobuf",
+            "sec-ch-ua-mobile": "?0",
+            "origin": "https://www.douyin.com",
+            "sec-fetch-site": "same-site",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-dest": "empty",
+            "referer": "https://www.douyin.com/",
+            "accept-encoding": "gzip, deflate, br, zstd",
+            "accept-language": "zh-CN,zh;q=0.9",
+            "cookie": "enter_pc_once=1, is_support_rtm_web_ts=1, hevc_supported=true, bd_ticket_guard_client_web_domain=2, login_time=1785688562693, sid_guard=9286ea0d6990247e296f9b3c8deb2809%7C1785688561%7C5184000%7CThu%2C+01-Oct-2026+16%3A36%3A01+GMT, n_mh=4SZQ-McQUJFFkQPkEHSitXMEfcfcW5CqM0ODkNLoFZI, sid_tt=9286ea0d6990247e296f9b3c8deb2809, __security_mc_1_s_sdk_crypt_sdk=648b76c4-46bd-8683, sessionid_ss=9286ea0d6990247e296f9b3c8deb2809, bd_ticket_guard_regenerate_keys_time=2026-08-03/00:35:27, UIFID=599531c2d0c6d0ef0aa9c3ee38b4d46f988bdec21e42bd2919803ff63c227dd18f3b2ba7a9edb3981e84e645b697fe4358227d112b83ebb2df10c00bb94506980ac80d4528548eebc1c8fe5e9cc3bb004eee2a8dcae92e35fa2ba5c5c3efe27b03b9127fc0c3c8c2b19e1707280738c94ed8f78db07a8dfca8e17f9152c5d79631157f29a822ede18b0854eaf86ce8300e2707638d887a6b08ba65d2523bb45e, _bd_ticket_crypt_cookie=fc0576a75f9bed487f200662bc1f8e4d, sessionid=9286ea0d6990247e296f9b3c8deb2809, strategyABtestKey=%221785688526.126%22, ssid_ucp_v1=1.0.0-KDM3NzIwZDJkNmE1ZWZmODgyYjk1YzgxODBlYWI2Zjc4ZDQ5ODY3MGIKHwjwitj09QIQ8eO90wYY7zEgDDCZupLZBTgCQO8HSAQaAmxmIiA5Mjg2ZWEwZDY5OTAyNDdlMjk2ZjliM2M4ZGViMjgwOQ, is_staff_user=false, uid_tt_ss=a69db97896bff68fef8344903f9a43b9, has_biz_token=false, is_dash_user=1, d_ticket=249e0c739bcc9fd222f88819ffcd283479e9d, FOLLOW_NUMBER_YELLOW_POINT_INFO=%22MS4wLjABAAAAJQAZrsnoUWjcFQzrjgIKCdJ2WqPpFRwqiB5_Tyg_5_8%2F1785772800000%2F0%2F1785689667507%2F0%22, __security_server_data_status=1, passport_mfa_token=Ci8AgFYQ3k33kXfy08rmgKKQ0%2BKfPaAYJf7L2OsvBM8q3tgbUww1C5C9zxJu293dRBpKCjwAAAAAAAAAAAAAULvF2TFrMPiJ0uE0Ukr5rQSW1B84CM6cITPHKEkqhOioD9m4QVPEfhYdw7Lx%2F193gXcQ8b6YDhj2sdFsIAIiAQN6EeI8, publish_badge_show_info=%220%2C0%2C0%2C1785688563203%22, passport_assist_user=Cj3MOAkgrvgL4jqOELmFJnaKLoVWhV7hu9zxS5atrfJoKHkJSnugdO5RhlLIrTTDWeMKlWnRi4ISUC9SzPSwGkoKPAAAAAAAAAAAAABQu6wF18t1zVJn7JgnNjc0mMITWc4mYD5ohsP5c5wl1qKHrjQVWT9mHOY4JSTCC8w8QxDxvpgOGImv1lQgASIBA9vWyo4%3D, SelfTabRedDotControl=%5B%7B%22id%22%3A%227501394401625638953%22%2C%22u%22%3A94%2C%22c%22%3A0%7D%2C%7B%22id%22%3A%227090082076845836295%22%2C%22u%22%3A54%2C%22c%22%3A0%7D%5D, __security_mc_1_s_sdk_sign_data_key_web_protect=824235a2-46e1-8bea, bd_ticket_guard_generate_ticket_time=2026-08-03/00:36:01, DiscoverFeedExposedAd=%7B%7D, passport_csrf_token=239c9d03d797f94c1d5c767b9d8e9dca, uid_tt=a69db97896bff68fef8344903f9a43b9, session_tlb_tag=sttt%7C12%7CkobqDWmQJH4pb5s8jesoCf_________jLLqIpAADd33JNZdhUQs_w-egRm9As0_oa8D3iW5Lfnc%3D, passport_csrf_token_default=239c9d03d797f94c1d5c767b9d8e9dca, sid_ucp_v1=1.0.0-KDM3NzIwZDJkNmE1ZWZmODgyYjk1YzgxODBlYWI2Zjc4ZDQ5ODY3MGIKHwjwitj09QIQ8eO90wYY7zEgDDCZupLZBTgCQO8HSAQaAmxmIiA5Mjg2ZWEwZDY5OTAyNDdlMjk2ZjliM2M4ZGViMjgwOQ, UIFID_TEMP=599531c2d0c6d0ef0aa9c3ee38b4d46f988bdec21e42bd2919803ff63c227dd1cc63faffcdbbe829d064bd99874b29c8e8db8f99ccc67be6eda8fa64dac63cb425cee91554ed57c18e6c4b9e44f6551a, __security_mc_1_s_sdk_cert_key=5985ec9e-4d40-9a15, stream_recommend_feed_params=%22%7B%5C%22cookie_enabled%5C%22%3Atrue%2C%5C%22screen_width%5C%22%3A1536%2C%5C%22screen_height%5C%22%3A864%2C%5C%22browser_online%5C%22%3Atrue%2C%5C%22cpu_core_num%5C%22%3A20%2C%5C%22device_memory%5C%22%3A16%2C%5C%22downlink%5C%22%3A1.6%2C%5C%22effective_type%5C%22%3A%5C%224g%5C%22%2C%5C%22round_trip_time%5C%22%3A100%7D%22, home_can_add_dy_2_desktop=%221%22, bd_ticket_guard_client_data=eyJiZC10aWNrZXQtZ3VhcmQtdmVyc2lvbiI6MiwiYmQtdGlja2V0LWd1YXJkLWl0ZXJhdGlvbi12ZXJzaW9uIjoxLCJiZC10aWNrZXQtZ3VhcmQtcmVlLXB1YmxpYy1rZXkiOiJCQkVwYTRkMHhBK2M4clIxL2lnNXNKaU85ZU9yZU5hcXZPVDgwWDloUnY2Q2ZuOXhhRzRQNy9hNVM2NmRhV0FyN21oamFzTS9hVExOYy9icUR2dExWeFE9IiwiYmQtdGlja2V0LWd1YXJkLXdlYi12ZXJzaW9uIjoyfQ%3D%3D, ttwid=1%7C6wYswp3CnO5AQoShExKENfdT0pXVtxetKaAofHSWkHU%7C1785689766%7C243db1f3da06401bd59b3aa08526d6f0ba3be29282349573625e8faf7bfee05f, biz_trace_id=b44249fd, FOLLOW_LIVE_POINT_INFO=%22MS4wLjABAAAAJQAZrsnoUWjcFQzrjgIKCdJ2WqPpFRwqiB5_Tyg_5_8%2F1785772800000%2F0%2F1785691263724%2F0%22, volume_info=%7B%22isUserMute%22%3Afalse%2C%22isMute%22%3Afalse%2C%22volume%22%3A0.5%7D, IsDouyinActive=false, odin_tt=b426e52299ee07ecbdd3911a65f86a335bda8e4f0212e0e49c9ddc28d4da4d46af8cb2688e01c02e627baa06d60ae2bec771637ee734e8b9b8ebb285e801873a665bf56c8fb63259f80cec9759c116a5, bd_ticket_guard_client_data_v2=eyJyZWVfcHVibGljX2tleSI6IkJCRXBhNGQweEErYzhyUjEvaWc1c0ppTzllT3JlTmFxdk9UODBYOWhSdjZDZm45eGFHNFA3L2E1UzY2ZGFXQXI3bWhqYXNNL2FUTE5jL2JxRHZ0TFZ4UT0iLCJyZXFfY29udGVudCI6InNlY190cyIsInJlcV9zaWduIjoiQTRYSDFkWmlqbXlxS01KdHhnUks5bjhQSjY1OUNjUlpVM1dBL0lMSmhFYz0iLCJzZWNfdHMiOiIjTUFId3I3N21CSkNnaExuVk9OZmZnVmhkWk1qM1Ayczk5c2ZFSlFPSEdXYkVPdnJnR1JseU5yZkhFcFNxIn0%3D",
+            "priority": "u=1, i"
+        },
+        "params": null,
+        "body": {
+            "1": 2048,
+            "2": 10184,
+            "3": "0.1.8",
+            "4": {},
+            "5": 3,
+            "6": 1,
+            "7": "0d50935:feat/pc-im-group",
+            "8": {
+                "2048": {
+                    "1": 1785692391466060,
+                    "2": 123683,
+                    "4": 1785689125286149,
+                    "5": {}
+                }
+            },
+            "9": "0",
+            "11": "douyin_pc",
+            "14": "360000",
+            "15": [
+                {
+                    "1": "session_aid",
+                    "2": "6383"
+                },
+                {
+                    "1": "session_did",
+                    "2": "0"
+                },
+                {
+                    "1": "app_name",
+                    "2": "douyin_pc"
+                },
+                {
+                    "1": "priority_region",
+                    "2": "cn"
+                },
+                {
+                    "1": "user_agent",
+                    "2": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+                },
+                {
+                    "1": "cookie_enabled",
+                    "2": "true"
+                },
+                {
+                    "1": "browser_language",
+                    "2": "zh-CN"
+                },
+                {
+                    "1": "browser_platform",
+                    "2": "Win32"
+                },
+                {
+                    "1": "browser_name",
+                    "2": "Mozilla"
+                },
+                {
+                    "1": "browser_version",
+                    "2": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+                },
+                {
+                    "1": "browser_online",
+                    "2": "true"
+                },
+                {
+                    "1": "screen_width",
+                    "2": "1536"
+                },
+                {
+                    "1": "screen_height",
+                    "2": "864"
+                },
+                {
+                    "1": "referer",
+                    "2": "https://www.douyin.com/"
+                },
+                {
+                    "1": "timezone_name",
+                    "2": "Asia/Shanghai"
+                },
+                {
+                    "1": "deviceId",
+                    "2": "0"
+                },
+                {
+                    "1": "is-retry",
+                    "2": "0"
+                }
+            ],
+            "18": 1,
+            "21": "douyin_web",
+            "22": "web_sdk",
+            "type": {
+                "1": {
+                    "type": "int",
+                    "name": ""
+                },
+                "2": {
+                    "type": "int",
+                    "name": ""
+                },
+                "3": {
+                    "type": "bytes",
+                    "name": ""
+                },
+                "4": {
+                    "type": "message",
+                    "message_typedef": {},
+                    "name": ""
+                },
+                "5": {
+                    "type": "int",
+                    "name": ""
+                },
+                "6": {
+                    "type": "int",
+                    "name": ""
+                },
+                "7": {
+                    "type": "bytes",
+                    "name": ""
+                },
+                "8": {
+                    "type": "message",
+                    "message_typedef": {
+                        "2048": {
+                            "type": "message",
+                            "message_typedef": {
+                                "1": {
+                                    "type": "int",
+                                    "name": ""
+                                },
+                                "2": {
+                                    "type": "int",
+                                    "name": ""
+                                },
+                                "4": {
+                                    "type": "int",
+                                    "name": ""
+                                },
+                                "5": {
+                                    "type": "message",
+                                    "message_typedef": {},
+                                    "name": ""
+                                }
+                            },
+                            "name": ""
+                        }
+                    },
+                    "name": ""
+                },
+                "9": {
+                    "type": "bytes",
+                    "name": ""
+                },
+                "11": {
+                    "type": "bytes",
+                    "name": ""
+                },
+                "14": {
+                    "type": "bytes",
+                    "name": ""
+                },
+                "15": {
+                    "type": "message",
+                    "message_typedef": {
+                        "1": {
+                            "type": "bytes",
+                            "name": ""
+                        },
+                        "2": {
+                            "type": "bytes",
+                            "name": ""
+                        }
+                    },
+                    "name": ""
+                },
+                "18": {
+                    "type": "int",
+                    "name": ""
+                },
+                "21": {
+                    "type": "bytes",
+                    "name": ""
+                },
+                "22": {
+                    "type": "bytes",
+                    "name": ""
+                }
+            }
+        }
+    },
+    "response": {
+        "status_code": 200,
+        "headers": {
+            "server": "volc-dcdn",
+            "content-type": "application/x-protobuf",
+            "date": "Sun, 02 Aug 2026 17:41:10 GMT",
+            "payload-encoding": "",
+            "payload-type": "",
+            "access-control-allow-credentials": "true",
+            "access-control-expose-headers": "Content-Type,Content-Length,Accept",
+            "access-control-allow-origin": "https://www.douyin.com",
+            "vary": "Origin, Accept-Encoding",
+            "x-agw-info": "dsOuNoqKnvviPIAEgqrrEGoTD_X85GZ5PHNc1gvXMhJ9-cYAaWELvBtuv6CUbrcGcA3nelg0DWrK-BJUz32hMEBzbBKE8OxH7oqfiJeIeT0AKgGmFfK101GE3DtwfoDvr0ouXMYkbb_CYjUdKRx90pwF6Q1uJV3DTxtPCeimbmsbUHywqtqEkTJ4jePtZDwaREo01swk",
+            "x-tt-logid": "202608030141109B5011A9D70FB20BB9B1",
+            "server-timing": "inner; dur=112, cdn-cache;desc=MISS, origin;dur=159, edge;dur=0, tt_agw; dur=101",
+            "strict-transport-security": "max-age=31536000",
+            "x-tt-trace-host": "018f5146e34d3a8c517902761a679a043721accd6cc5ad3e2b5639c755565be74f429a6563c310e0de0b388b000fd348be054061ded26f0d5cd025a2bf6471502ae54637e7f1dfd9b9de4f02bcdd45aeb5bebf763d5fc42ce8ddcde90e6c585f2e386bccd726c2397ebd9f121898a2c6b6",
+            "x-tt-trace-tag": "id=5",
+            "x-tt-trace-id": "00-2608030141109B5011A9D70FB20BB9B1-3B7961B8592A538E-00",
+            "content-encoding": "br",
+            "via": "n61-214-100.jslianyungang-mp02-cm.Creative",
+            "x-request-ip": "112.0.141.79",
+            "x-dsa-trace-id": "178569247021a23a756da2af155d430965137d97e1",
+            "x-dsa-origin-status": "200"
+        },
+        "body": {
+            "1": 2048,
+            "2": 10184,
+            "3": 0,
+            "4": "OK",
+            "5": 1,
+            "6": {
+                "2048": {
+                    "1": {
+                        "1": 0,
+                        "3": 0,
+                        "4": {
+                            "1": 0,
+                            "2": 0
+                        }
+                    },
+                    "2": {
+                        "2": 0,
+                        "3": 123683
+                    },
+                    "4": {
+                        "2": 0,
+                        "3": 0
+                    }
+                }
+            },
+            "7": "202608030141109B5011A9D70FB20BB9B1",
+            "9": 0,
+            "10": 1785692470794,
+            "11": 1785692470857,
+            "12": 0,
+            "13": 100371137904,
+            "14": {
+                "1": [
+                    {
+                        "1": "recent_message_task",
+                        "2": 4
+                    },
+                    {
+                        "1": "method_execute",
+                        "2": 63
+                    }
+                ],
+                "2": 1785692470794,
+                "3": 1785692470857
+            },
+            "type": {
+                "1": {
+                    "type": "int",
+                    "name": ""
+                },
+                "2": {
+                    "type": "int",
+                    "name": ""
+                },
+                "3": {
+                    "type": "int",
+                    "name": ""
+                },
+                "4": {
+                    "type": "bytes",
+                    "name": ""
+                },
+                "5": {
+                    "type": "int",
+                    "name": ""
+                },
+                "6": {
+                    "type": "message",
+                    "message_typedef": {
+                        "2048": {
+                            "type": "message",
+                            "message_typedef": {
+                                "1": {
+                                    "type": "message",
+                                    "message_typedef": {
+                                        "1": {
+                                            "type": "int",
+                                            "name": ""
+                                        },
+                                        "3": {
+                                            "type": "int",
+                                            "name": ""
+                                        },
+                                        "4": {
+                                            "type": "message",
+                                            "message_typedef": {
+                                                "1": {
+                                                    "type": "int",
+                                                    "name": ""
+                                                },
+                                                "2": {
+                                                    "type": "int",
+                                                    "name": ""
+                                                }
+                                            },
+                                            "name": ""
+                                        }
+                                    },
+                                    "name": ""
+                                },
+                                "2": {
+                                    "type": "message",
+                                    "message_typedef": {
+                                        "2": {
+                                            "type": "int",
+                                            "name": ""
+                                        },
+                                        "3": {
+                                            "type": "int",
+                                            "name": ""
+                                        }
+                                    },
+                                    "name": ""
+                                },
+                                "4": {
+                                    "type": "message",
+                                    "message_typedef": {
+                                        "2": {
+                                            "type": "int",
+                                            "name": ""
+                                        },
+                                        "3": {
+                                            "type": "int",
+                                            "name": ""
+                                        }
+                                    },
+                                    "name": ""
+                                }
+                            },
+                            "name": ""
+                        }
+                    },
+                    "name": ""
+                },
+                "7": {
+                    "type": "bytes",
+                    "name": ""
+                },
+                "9": {
+                    "type": "int",
+                    "name": ""
+                },
+                "10": {
+                    "type": "int",
+                    "name": ""
+                },
+                "11": {
+                    "type": "int",
+                    "name": ""
+                },
+                "12": {
+                    "type": "int",
+                    "name": ""
+                },
+                "13": {
+                    "type": "int",
+                    "name": ""
+                },
+                "14": {
+                    "type": "message",
+                    "message_typedef": {
+                        "1": {
+                            "type": "message",
+                            "message_typedef": {
+                                "1": {
+                                    "type": "bytes",
+                                    "name": ""
+                                },
+                                "2": {
+                                    "type": "int",
+                                    "name": ""
+                                }
+                            },
+                            "name": ""
+                        },
+                        "2": {
+                            "type": "int",
+                            "name": ""
+                        },
+                        "3": {
+                            "type": "int",
+                            "name": ""
+                        }
+                    },
+                    "name": ""
+                }
+            }
+        }
+    }
+}

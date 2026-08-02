@@ -1,0 +1,81 @@
+{
+    "time": 1785692653.6892686,
+    "request": {
+        "method": "POST",
+        "url": "https://security.zijieapi.com/api/metrics/emit",
+        "headers": {
+            "content-length": "486",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0",
+            "accept": "*/*",
+            "origin": "https://www.douyin.com",
+            "sec-fetch-site": "cross-site",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-dest": "empty",
+            "referer": "https://www.douyin.com/",
+            "accept-encoding": "gzip, deflate, br, zstd",
+            "accept-language": "zh-CN,zh;q=0.9",
+            "priority": "u=1, i"
+        },
+        "params": null,
+        "body": {
+            "values": [
+                {
+                    "name": "decision.latency",
+                    "tags": {
+                        "decisionName": "XHR_REQUEST_OPEN",
+                        "projectId": "34",
+                        "env": "online",
+                        "sdkVersion": "1.0.40",
+                        "name": "-",
+                        "strategyName": "-",
+                        "strategyVersion": "-",
+                        "functionName": "-",
+                        "actionType": "-"
+                    },
+                    "value": 1,
+                    "type": "time"
+                },
+                {
+                    "name": "decision.latency",
+                    "tags": {
+                        "decisionName": "XHR_REQUEST_SEND",
+                        "projectId": "34",
+                        "env": "online",
+                        "sdkVersion": "1.0.40",
+                        "name": "-",
+                        "strategyName": "-",
+                        "strategyVersion": "-",
+                        "functionName": "-",
+                        "actionType": "-"
+                    },
+                    "value": 4,
+                    "type": "time"
+                }
+            ]
+        }
+    },
+    "response": {
+        "status_code": 204,
+        "headers": {
+            "server": "Tengine",
+            "date": "Sun, 02 Aug 2026 17:44:12 GMT",
+            "x-tt-logid": "20260803014412707B23522B3544842F75",
+            "server-timing": "inner; dur=8,tt_agw; dur=0, cdn-cache;desc=MISS,edge;dur=0,origin;dur=38",
+            "access-control-allow-credentials": "false",
+            "access-control-expose-headers": "*",
+            "access-control-allow-origin": "*",
+            "x-tt-trace-host": "0115084422825795fc46b20b9681dce675f0ceb7ce3538bb74d5f0bf174415cdf709b07854fc2fd313281daa883cd57b4caed49f3e86566c383e90c59ac6e7b9fc5dce7a3cda97416fbbff88b126489c382b0658a055f563a114d6403f89e92caf",
+            "x-tt-trace-tag": "id=03;cdn-cache=miss;type=dyn",
+            "x-tt-trace-id": "00-260803014412707B23522B3544842F75-73620C643B1263D6-00",
+            "x-tt-timestamp": "1785692652.709",
+            "via": "vcache5.cn3816[38,0]",
+            "timing-allow-origin": "*",
+            "eagleid": "249c481917856926526825959e"
+        },
+        "body": null
+    }
+}
