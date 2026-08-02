@@ -27,7 +27,8 @@ def pull_url2params_dict(url: str) -> tuple:
 def clear_jsons():
     for root, dirs, files in os.walk("../capture/requests_and_responses"):
         for file in files:
-            os.remove(os.path.join(root, file))
+            if file.endswith(".json"):
+                os.remove(os.path.join(root, file))
 
 
 # 将带byte值的字典变成常规字典
