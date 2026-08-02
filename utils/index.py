@@ -1,4 +1,4 @@
-import common
+from . import common
 
 
 def show_dict(d: dict) -> None:

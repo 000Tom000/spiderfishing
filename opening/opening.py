@@ -1,7 +1,8 @@
-import os, json
+import json
+import os
 
 from selenium import webdriver
-from selenium.webdriver.ie.service import Service
+from selenium.webdriver.chrome.service import Service
 
 from capture.capture import clear_jsons
 
