@@ -1,8 +1,8 @@
-# 🕷️ Spider
+# 🕷️ Spider Fishing
 
 > 基于 mitmproxy 的 HTTPS 流量捕获工具 —— 配合 Selenium 浏览器自动化，拦截并分析 Web 应用的 API 通信。
 
-**Spider** 通过中间人代理（MITM）的方式，将浏览器发出的 HTTP/HTTPS 请求和响应拦截下来，自动解析多种格式的 body（JSON / 表单 / 文本 / Protobuf），并保存为结构化 JSON 文件，方便后续查找与分析。
+**piderfishing** 通过中间人代理（MITM）的方式，将浏览器发出的 HTTP/HTTPS 请求和响应拦截下来，自动解析多种格式的 body（JSON / 表单 / 文本 / Protobuf），并保存为结构化 JSON 文件，方便后续查找与分析。
 
 ---
 

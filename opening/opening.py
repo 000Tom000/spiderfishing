@@ -3,9 +3,6 @@ import os, json
 from selenium import webdriver
 from selenium.webdriver.ie.service import Service
 
-from utils import *
-
-
 from capture.capture import clear_jsons
 
 # chrome保存cookies

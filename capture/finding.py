@@ -18,6 +18,7 @@ def find_content_include(include: str) -> list:
                     fs.append(file)
     return fs
 
+
 # 请求或响应 名称包含
 def find_file_name_include(include: str) -> list:
     fs = list()
@@ -27,6 +28,7 @@ def find_file_name_include(include: str) -> list:
                 print(file)
                 fs.append(file)
     return fs
+
 
 # 响应 内容包含
 def find_response_content_include(include: str) -> list:
@@ -40,6 +42,7 @@ def find_response_content_include(include: str) -> list:
                     fs.append(file)
     return fs
 
+
 # 请求 内容包含
 def find_request_content_include(include: str) -> list:
     fs = list()
@@ -51,6 +54,7 @@ def find_request_content_include(include: str) -> list:
                     print(file)
                     fs.append(file)
     return fs
+
 
 # 打开保存的 请求或响应 文件
 def open_json(json_file: str) -> dict:
