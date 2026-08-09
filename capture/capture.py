@@ -118,7 +118,8 @@ def response(flow: http.HTTPFlow):
         if last_url_segment:
             path = last_url_segment
             break
-    if path.find('.') != -1: return
+    # if path.find('.') != -1: return
+    if path.endswith(".js") or path.endswith(".css"): return
     path = f"../capture/requests_and_responses/{datetime.now().strftime('%H%M%S%f')}_{flow.request.method}_{path}.json"
 
     # 保存请求+响应
