@@ -22,6 +22,7 @@ def find_content_include(include: str) -> list:
 
 # 请求或响应 名称包含
 def find_file_name_include(include: str) -> list:
+    print(f"find_file_name_include: {include}")
     fs = list()
     for root, dirs, files in os.walk("../capture/requests_and_responses"):
         for file in files:
@@ -33,27 +34,31 @@ def find_file_name_include(include: str) -> list:
 
 # 响应 内容包含
 def find_response_content_include(include: str) -> list:
+    print(f"find_response_content_include: {include}")
     fs = list()
     for root, dirs, files in os.walk("../capture/requests_and_responses"):
         for file in files:
-            with open(os.path.join(root, file), "r+", encoding="utf-8") as f:
-                content = f.read()
-                if include in content.split("\"response\"")[1]:
-                    print(file)
-                    fs.append(file)
+            if file.endswith(".json"):
+                with open(os.path.join(root, file), "r+", encoding="utf-8") as f:
+                    content = f.read()
+                    if include in content.split("\"response\"")[1]:
+                        print(file)
+                        fs.append(file)
     return fs
 
 
 # 请求 内容包含
 def find_request_content_include(include: str) -> list:
+    print(f"find_request_content_include: {include}")
     fs = list()
     for root, dirs, files in os.walk("../capture/requests_and_responses"):
         for file in files:
-            with open(os.path.join(root, file), "r+", encoding="utf-8") as f:
-                content = f.read()
-                if include in content.split("\"response\"")[0]:
-                    print(file)
-                    fs.append(file)
+            if file.endswith(".json"):
+                with open(os.path.join(root, file), "r+", encoding="utf-8") as f:
+                    content = f.read()
+                    if include in content.split("\"response\"")[0]:
+                        print(file)
+                        fs.append(file)
     return fs
 
 
